@@ -12,6 +12,17 @@ html, body, #fullheight {
     height:100%;
 
 }
+body{
+    background-color:beige;
+}
+#titlename{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-size : 40px;
+    font-family:monospace;
+}
+
 
 #calculator{
     display:grid;
@@ -65,5 +76,8 @@ button{
 }
 #Clear{
     background-color: rgb(163,214,245);
+}
+h1{
+    size : 50px;
 }
 
